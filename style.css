@@ -1,5 +1,8 @@
+body{
+    background-color: rgb(243, 208, 234);
+}
 
-.logo{
+.logo1{
     width: 22%;
     border-radius: 40%;
     transition: 10s;
@@ -10,7 +13,7 @@
     transition: 10s;
 }
 header{
-    background-color: rgb(184, 140, 224);
+    background-color:rgb(191, 246, 227);
     display: flex;
 }
 nav li{
@@ -23,9 +26,56 @@ nav{
 }
 header{
     position: relative;
-    top: 50%
+    top: 30%
 }
 nav li{
     display: inline;
-    margin: 5px;
+    margin: 15px;
+}
+.monalisa{
+    width: 15%;
+    border-radius: 40%;
+    transition: 10s;
+}
+main nav{
+    text-align: left;
+    margin: 0;
+}
+main nav p{
+    text-align: right;
+}
+.ballet{
+    width: 22%;
+    border-radius: 40%;
+    transition: 10s;
+}
+.musica{
+    width: 22%;
+    border-radius: 40%;
+    transition: 10s;
+}
+.teatro{
+    width: 22%;
+    border-radius: 40%;
+    transition: 10s;
+}
+footer{
+    background-color:rgb(191, 246, 227);
+    display: flex;
+}
+div li{
+    text-align: inline;
+    margin: 60px;
+}
+div{
+    text-align: right;
+    margin: 0 200px;
+}
+footer{
+    position: relative;
+    top: 30%
+}
+div li{
+    display: inline;
+    margin: 15px;
 }
