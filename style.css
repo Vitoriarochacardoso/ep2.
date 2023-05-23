@@ -1,48 +1,75 @@
-body{
-    background-color: rgb(243, 208, 234);
-}
-
 .logo1{
-    width: 22%;
     border-radius: 40%;
-    transition: 10s;
+    transition: 1s;
+    width: 15%;
 }
 .logo:hover{
-    width: 22%;
+    width: 15%;
     border-radius: 40%;
-    transition: 10s;
+    transition: 1s;
 }
-header{
-    background-color:rgb(191, 246, 227);
-    display: flex;
-}
-nav li{
-    text-align: inline;
-    margin: 60px;
-}
+
 nav{
-    text-align: right;
-    margin: 0 0 0 200px;
+    margin-top: 1rem;
 }
+
 header{
-    position: relative;
-    top: 30%
+    background-image: linear-gradient(to right, rgb(89, 255, 200) , rgb(240, 151, 165));/* faz um degrade da cor do elemento */
+    display: flex;/* permite colocar os links ao lado da imagem */
+    padding: 1rem;
 }
+
+
 nav li{
     display: inline;
-    margin: 15px;
+    margin: 1rem; 
+}
+
+nav a{
+    text-decoration: none; 
+    font-size: 1.5rem;
+    color: rgb(2, 2, 2);
+    border: solid rgb(0, 0, 0);
+    background: rgb(224, 174, 174);
+    transition: 1s;
+}
+
+nav a:hover{ 
+    font-size: 1.1rem;
+    color: white; 
+    border: solid rgb(119, 13, 13); 
+    background: black; 
+}
+
+footer{
+    text-align: center;
+    background-image: linear-gradient(to right, rgb(89, 255, 200) , rgb(234, 150, 241));
+    display: flex;
+
+}
+footer li{
+    display: inline;
+    margin: 0 0 0 100px;
+}
+
+main{
+    text-align: justify; 
+    background-color: rgb(231, 202, 248);
+    margin: 2rem; 
+    padding: 2rem; 
+}
+.familia{
+    width: 40%; 
+    float: right; 
+    margin: 1rem;
+}
+.titulo_main{
+    text-align: center;
 }
 .monalisa{
     width: 15%;
     border-radius: 40%;
     transition: 10s;
-}
-main nav{
-    text-align: left;
-    margin: 0;
-}
-main nav p{
-    text-align: right;
 }
 .ballet{
     width: 22%;
@@ -58,24 +85,4 @@ main nav p{
     width: 22%;
     border-radius: 40%;
     transition: 10s;
-}
-footer{
-    background-color:rgb(191, 246, 227);
-    display: flex;
-}
-div li{
-    text-align: inline;
-    margin: 60px;
-}
-div{
-    text-align: right;
-    margin: 0 200px;
-}
-footer{
-    position: relative;
-    top: 30%
-}
-div li{
-    display: inline;
-    margin: 15px;
 }
