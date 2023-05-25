@@ -51,6 +51,20 @@ footer li{
     display: inline;
     margin: 0 0 0 100px;
 }
+footer a{
+    text-decoration: none; 
+    font-size: 1.5rem;
+    color: rgb(2, 2, 2);
+    border: solid rgb(0, 0, 0);
+    background: rgb(224, 174, 174);
+    transition: 1s;
+}
+footer a:hover{
+    font-size: 1.1rem;
+    color: white; 
+    border: solid rgb(119, 13, 13); 
+    background: black; 
+}
 
 main{
     text-align: justify; 
@@ -82,6 +96,27 @@ main{
     transition: 10s;
 }
 .teatro{
+    width: 22%;
+    border-radius: 40%;
+    transition: 10s;
+}
+.samba{
+    width: 22%;
+    border-radius: 40%;
+    transition: 10s;
+}
+.ballet1{
+    width: 22%;
+    border-radius: 40%;
+    transition: 10s;
+}
+
+.sreet{
+    width: 22%;
+    border-radius: 40%;
+    transition: 10s;
+}
+.contemporaneo{
     width: 22%;
     border-radius: 40%;
     transition: 10s;
