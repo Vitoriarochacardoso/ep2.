@@ -1,12 +1,16 @@
+body{
+    color: white;
+}
+
 .fundo1{
     background-image:url(imagem/fundo1.jpg);
 
 }
 .danca{
-    background-image: url(imagem/fundo.jpg);
+    background-image: url(imagem/danca.jpg);
 }
 .logo1{
-    border-radius: 40%;
+    border-radius: 20%;
     transition: 1s;
     width: 15%;
 }
@@ -21,7 +25,7 @@ nav{
 }
 
 header{
-    background-image: linear-gradient(to right, rgb(89, 255, 200) , rgb(240, 151, 165));/* faz um degrade da cor do elemento */
+    background-image: linear-gradient(to right, rgb(89, 255, 200, 0.4) , rgb(240, 151, 165, 0.4));/* faz um degrade da cor do elemento */
     display: flex;/* permite colocar os links ao lado da imagem */
     padding: 1rem;
 }
@@ -35,7 +39,7 @@ nav li{
 nav a{
     text-decoration: none; 
     font-size: 1.5rem;
-    color: rgb(2, 2, 2);
+    color: rgb(2, 2, 2,);
     border: solid rgb(0, 0, 0);
     background: rgb(224, 174, 174);
     transition: 1s;
@@ -44,13 +48,13 @@ nav a{
 nav a:hover{ 
     font-size: 1.1rem;
     color: white; 
-    border: solid rgb(119, 13, 13); 
+    border: solid rgb(254, 254, 254); 
     background: black; 
 }
 
 footer{
     text-align: center;
-    background-image: linear-gradient(to right, rgb(89, 255, 200) , rgb(234, 150, 241));
+    background-image: linear-gradient(to right, rgb(89, 255, 200, 0.4) , rgb(240, 151, 165, 0.4));
     display: flex;
 
 }
@@ -69,7 +73,7 @@ footer a{
 footer a:hover{
     font-size: 1.1rem;
     color: white; 
-    border: solid rgb(119, 13, 13); 
+    border: solid rgb(0, 0, 0); 
     background: black; 
 }
 
@@ -78,7 +82,7 @@ main{
     background-color: rgba(231, 202, 248, 0.5);
     margin: 2rem; 
     padding: 2rem; 
-    color: white;
+    color: rgb(0, 0, 0);
 }
 .fundo{
     width: 40%; 
