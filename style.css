@@ -1,3 +1,10 @@
+.fundo1{
+    background-image:url(imagem/fundo1.jpg);
+
+}
+.danca{
+    background-image: url(imagem/fundo.jpg);
+}
 .logo1{
     border-radius: 40%;
     transition: 1s;
@@ -68,11 +75,12 @@ footer a:hover{
 
 main{
     text-align: justify; 
-    background-color: rgb(231, 202, 248);
+    background-color: rgba(231, 202, 248, 0.5);
     margin: 2rem; 
     padding: 2rem; 
+    color: white;
 }
-.familia{
+.fundo{
     width: 40%; 
     float: right; 
     margin: 1rem;
@@ -107,17 +115,17 @@ main{
 }
 .ballet1{
     width: 22%;
-    border-radius: 40%;
+    border-radius: 30%;
     transition: 10s;
 }
 
 .sreet{
     width: 22%;
-    border-radius: 40%;
+    border-radius: 30%;
     transition: 10s;
 }
 .contemporaneo{
     width: 22%;
-    border-radius: 40%;
+    border-radius: 30%;
     transition: 10s;
 }
