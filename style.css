@@ -10,7 +10,7 @@ body{
     background-image: url(imagem/danca.jpg);
 }
 .logo1{
-    border-radius: 20%;
+    border-radius: 10%;
     transition: 1s;
     width: 15%;
 }
@@ -132,4 +132,124 @@ main{
     width: 22%;
     border-radius: 30%;
     transition: 10s;
+}
+.Aquarela{
+    width: 22%;
+    border-radius: 30%;
+    transition: 10s;
+}
+.fundo3{
+    background-image:url(imagem/fundo3.jpg);
+}
+.Óleo{
+    width: 15%;
+    border-radius: 30%;
+    transition: 10s;
+}
+.grito{
+    width: 15%;
+    border-radius: 30%;
+    transition: 10s;
+}
+.tempera{
+    width: 15%;
+    border-radius: 30%;
+    transition: 10s;
+}
+.acrilico{
+    width: 15%;
+    border-radius: 30%;
+    transition: 10s;
+}
+.louvor{
+    width: 15%;
+    border-radius: 40%;
+    transition: 10s;
+}
+.erudita{
+    width: 30%;
+    border-radius: 20%;
+    transition: 10s;
+}
+.classica{
+    width: 30%;
+    border-radius: 40%;
+    transition: 10s;
+}
+.popular{
+    width: 30%;
+    border-radius: 40%;
+    transition: 10s;
+}
+.folclorica{
+    width: 30%;
+    border-radius: 40%;
+    transition: 10s;
+}
+.fundo2{
+    background-image: url(imagem/fundo2.jpg);
+}
+.fundo1{
+    background-image: url(imagem/fundo1.jpg);
+}
+.fundo4{
+    background-image: url(imagem/fundo4.jpg);
+}
+.foto{
+    width: 15%;
+    border-radius: 40%;
+    transition: 10s;  
+}
+.tercos1{
+    width: 15%;
+    border-radius: 40%;
+    transition: 10s; 
+}
+.ouro1{
+    width: 15%;
+    border-radius: 40%;
+    transition: 10s; 
+}
+.linhas1{
+    width: 15%;
+    border-radius: 40%;
+    transition: 10s;   
+}
+.metades{
+    width: 15%;
+    border-radius: 40%;
+    transition: 10s; 
+}
+.tradicional{
+    width: 22%;
+    border-radius: 30%;
+    transition: 10s;
+}
+
+.interativo{
+    width: 15%;
+    border-radius: 30%;
+    transition: 10s;
+}
+
+.musical{
+    width: 22%;
+    border-radius: 30%;
+    transition: 10s;
+}
+
+.monologo{
+    width: 22%;
+    border-radius: 30%;
+    transition: 10s;
+}
+.barracao{
+    width: 22%;
+    border-radius: 30%;
+    transition: 10s;
+}
+
+.fundo5{
+    background-image:url(imagem/fundo5.jpg);
+
 }
